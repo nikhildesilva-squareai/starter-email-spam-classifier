@@ -1,12 +1,25 @@
 # Email Spam Classifier
 
-![Beginner](https://img.shields.io/badge/difficulty-beginner-22C55E) ![Machine Learning](https://img.shields.io/badge/course-Machine%20Learning-0056CE)
+![Beginner](https://img.shields.io/badge/difficulty-beginner-22C55E) ![Machine Learning](https://img.shields.io/badge/course-Machine%20Learning-0056CE) ![8 hours](https://img.shields.io/badge/estimated-8h-lightgrey)
 
-> **Square 1 AI** starter template for the **Email Spam Classifier** project.
+> **Square 1 AI** starter template — Machine Learning
+
+## Overview
+
+In this introductory project, you'll build a **Email Spam Classifier** using Python, scikit-learn, NLP. Train a text classifier to distinguish spam from legitimate emails using NLP features. This is a hands-on project where you'll write real code, solve real problems, and build something you can showcase in your portfolio.
+
+This project is part of the **Machine Learning** course, where you'll build, train, and deploy ML models that learn from data.
+
+## What You'll Learn
+
+- Write clean, well-structured Python code following PEP 8 conventions
+- Build, evaluate, and compare machine learning models with scikit-learn
+- Follow software engineering best practices: version control, documentation, testing
+- Write a comprehensive README with setup instructions, usage examples, and architecture overview
 
 ## Tech Stack
 
-`Python` `scikit-learn` `NLP`
+`Python` `scikit-learn` `NLP` 
 
 ## Requirements
 
@@ -14,6 +27,48 @@
 - [ ] Deploy to GitHub
 - [ ] Write README
 - [ ] Pass AI code review
+
+## Approach
+
+Start with data exploration — understand your dataset before building models. Clean and preprocess the data. Build a simple baseline model first. Then iterate: try different architectures, tune hyperparameters, and evaluate with proper metrics. Finally, build a deployment interface.
+
+## Milestones
+
+### 1. Setup & Planning
+Clone starter, set up environment, plan approach
+
+### 2. Core Implementation
+Build the main functionality
+
+### 3. Testing & Polish
+Add error handling, edge cases, tests
+
+### 4. Deploy & Document
+Deploy to GitHub, write docs, submit
+
+## Deliverables
+
+- Working application with all requirements implemented
+- Clean, well-documented source code on GitHub
+- README with setup instructions, screenshots, and usage guide
+- Model evaluation report with metrics and visualisations
+
+## Tips & Guidance
+
+- Commit early and often — the AI reviewer can see your commit history and values incremental progress
+- Write your README as you build, not at the end — it helps clarify your thinking
+- Use virtual environments (`python -m venv venv`) to manage dependencies cleanly
+- Start with a small dataset for fast iteration, then scale up once your pipeline works
+- The AI reviewer checks for: code quality, error handling, documentation, and whether all requirements are met
+
+## How You'll Be Evaluated
+
+The AI reviewer will analyse your actual source code and evaluate:
+
+- **Code quality**: clean, readable, well-structured code with proper naming conventions
+- **Completeness**: all requirements are implemented and functional
+- **Documentation**: README is comprehensive with setup instructions and usage examples
+- **Git history**: regular commits with meaningful messages showing progressive development
 
 ## Getting Started
 
@@ -24,30 +79,12 @@ cd starter-email-spam-classifier
 
 # Set up Python environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  # On Windows: venv\\Scripts\\activate
 pip install -r requirements.txt
 
 # Run
 python main.py
 ```
-
-## Project Structure
-
-```
-email-spam-classifier/
-├── main.py            # Entry point
-├── src/               # Your source code
-│   └── __init__.py
-├── tests/             # Unit tests
-│   └── test_main.py
-├── requirements.txt   # Python dependencies
-├── .gitignore
-└── README.md
-```
-
-## Estimated Time
-
-~8 hours
 
 ## Submission
 
@@ -55,6 +92,10 @@ email-spam-classifier/
 2. Push your code to your own **public** GitHub repository
 3. Go to [Square 1 AI](https://square1-tutor.vercel.app/projects) and submit your repo URL
 4. Our AI will review your actual code and give you a score with line-level feedback
+
+## Career Relevance
+
+This project builds skills directly applicable to roles like: **ML Engineer, Data Scientist, Applied Scientist**.
 
 ---
 
